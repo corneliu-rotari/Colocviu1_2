@@ -26,11 +26,11 @@
             android:text="Next Term" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Add" />
 
     </LinearLayout>
 
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/allTerms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
